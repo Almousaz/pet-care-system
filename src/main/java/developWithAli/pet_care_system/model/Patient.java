@@ -16,7 +16,6 @@ import lombok.Setter;
 @PrimaryKeyJoinColumn(name = "patient_id")
 public class Patient extends User{
 
-    // @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
 
